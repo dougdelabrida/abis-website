@@ -1,0 +1,149 @@
+body {
+  background: #b96fd9;
+  margin: 0;
+}
+h1 {
+  margin: 0;
+}
+#home header {
+  background: url(../images/bg-cabecalho.jpg) top center no-repeat;
+  height: 582px;
+  width: 100%;
+}
+#page header {
+  background: url(../images/bg-cabecalho2.jpg) top center no-repeat;
+  height: 350px;
+  width: 100%;
+}
+#page header .cont .slide {
+  display: none;
+}
+header .cont {
+  height: 582px;
+  margin: 0 auto;
+  width: 960px;
+}
+header .logo {
+  height: 140px;
+  text-indent: -9999px;
+  float: left;
+  width: 310px;
+}
+header .logo a {
+  background: url(../images/logo.png) no-repeat center 10px;
+  display: block;
+  height: 130px;
+}
+header .slogan {
+  color: #52298a;
+  float: left;
+  width: 300px;
+  height: 30px;
+  font-family: times, arial, verdana;
+  font-size: 22.6px;
+  padding: 50px 20px 20px 0px;
+}
+header .redes-sociais {
+  background: url(../images/social.png) no-repeat center;
+  height: 105px;
+  padding: 48px 0 0 0;
+  margin-top: -12px;
+  float: right;
+  width: 320px;
+}
+header .redes-sociais .twitter {
+  background: url(../images/social-bts.png) 20px no-repeat;
+  text-indent: -99999px;
+  height: 45px;
+  width: 145px;
+  float: right;
+}
+header .redes-sociais .facebook {
+  background: url(../images/social-bts.png) -127px no-repeat;
+  text-indent: -99999px;
+  height: 45px;
+  width: 145px;
+  float: right;
+}
+header .redes-sociais .telefone {
+  color: #845399;
+  float: right;
+  margin-top: -80px;
+  font: 14px arial;
+  padding: 10px;
+}
+header nav {
+  color: #6f479f;
+  font-family: arial;
+  font-size: 18px;
+  height: 33px;
+  margin: 0 auto;
+  width: 897px;
+  clear: both;
+}
+header nav ul {
+  list-style: none;
+  margin: 0;
+  height: 33px;
+  padding: 0;
+}
+header nav ul li a {
+  background: url(../images/menu-link-hover.png)-207px no-repeat;
+  border-right: 1px solid rgba(82, 41, 138, 0.2);
+  color: #6f479f;
+  text-decoration: none;
+  padding: 5px 21px 5px 21px;
+  float: left;
+  -o-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+}
+header nav ul li a:hover {
+  background: url(../images/menu-link-hover.png)-0px;
+  color: #621883;
+  padding: 0px 21px 10px 21px;
+  -o-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+}
+header .cont .slide {
+  margin: 0 auto;
+  height: 350px;
+  width: 800px;
+}
+#container {
+  height: 112px;
+  margin: 0 auto;
+  width: 960px;
+  font: 16px verdana;
+  color: #fff;
+}
+footer {
+  background: #8932ae;
+  bottom: 0px;
+  height: 80px;
+  width: 100%;
+  position: absolute;
+}
+footer .cont {
+  margin: 0 auto;
+  width: 940px;
+}
+footer .cont .logo {
+  background: url(../images/logo-footer.jpg);
+  height: 60px;
+  width: 95px;
+  float: left;
+  margin-top: 12px;
+}
+footer .cont .logo a {
+  display: block;
+  text-indent: -99999px;
+  height: 60px;
+}
+footer .cont .endereco {
+  margin: 33px 0 0 15px;
+  font: 17px arial;
+  float: left;
+  color: #f0ccff;
+}
